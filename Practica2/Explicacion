@@ -1,0 +1,5 @@
+Para poder respetar el principio de responsabilidad unica, el codigo suministrado debia ser separado en 2 clases:
+1. Clase Persona: En donde se colocaban los atributos (Nombre, Edad, Direccion, Correo Electronico).
+2. Clase ServicioEnviar: En donde se coloco el metodo para enviar el correo electronico.
+
+Ya que los atributos de la clase persona se encontraban declarados como privados, se creo un metodo para poder extraer el correo electronico y poder utilizarlo en otras clases.
